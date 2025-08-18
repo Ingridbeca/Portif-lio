@@ -1,7 +1,7 @@
 # 🌐 Ingrid Rebeca - Portfólio
 
 Bem-vindo(a) ao meu portfólio!  
-Este projeto foi desenvolvido com **React + Vite** para apresentar meus trabalhos e experiências.
+Este projeto foi desenvolvido com **React + Vite** para apresentar meus projetos e experiências.
 
 ---
 
