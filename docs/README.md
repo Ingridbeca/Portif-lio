@@ -44,8 +44,10 @@ Este projeto foi construído utilizando:
 
 ## 📬 Contato
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/ingrid-rebeca-b11a00279/)
+- [LinkedIn](https://www.linkedin.com/in/ingrid-rebeca-b11a00279/)
 
-- 📧 [E-mail: inggmyg@gmail.com]
+- [E-mail: inggmyg@gmail.com]
 
 ---
+
+✨ Feito com dedicação por Ingrid Rebeca
