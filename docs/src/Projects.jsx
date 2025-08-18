@@ -12,7 +12,7 @@ function Projects() {
     <div className="m-5 text-center">
       <h1 className='font mb-5 mt-5'>Meus <span className="laranja">projetos</span> Públicos!</h1>
       <div className="d-flex justify-content-center">
-        <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="1000" data-bs-wrap="true" data-bs-pause="false">
+        <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="10000" data-bs-wrap="true" data-bs-pause="false">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -20,7 +20,7 @@ function Projects() {
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="4000">
+            <div className="carousel-item active" data-bs-interval="6000">
               <a href="https://github.com/Ingridbeca/pmv-si-2025-1-pe3-t1-reciclaaqui-reciclagem-local">
                 <img src={recicla} className="slide d-block" style={{ width: '900px', height: 'auto' }} />
                 <div className="carousel-caption d-none d-md-block">
@@ -34,7 +34,7 @@ function Projects() {
                 </div>
               </a>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="6000">
               <a href="https://github.com/Ingridbeca/pmv-si-2024-1-pe1-t6-si_t6_app_web_1osem2024_gp01.git">
                 <img src={gerency} className="slide d-block" style={{ width: '900px', height: 'auto' }} />
                 <div className="carousel-caption d-none d-md-block">
@@ -43,7 +43,7 @@ function Projects() {
                 </div>
               </a>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="6000">
               <a href="https://github.com/Ingridbeca/Health-Care.git">
                 <img src={healthCare} className=" slide d-block" style={{ width: '900px', height: 'auto' }} />
                 <div className="carousel-caption d-none d-md-block">
@@ -52,7 +52,7 @@ function Projects() {
                 </div>
               </a>
             </div>
-            <div className="carousel-item" data-bs-interval="4000">
+            <div className="carousel-item" data-bs-interval="6000">
               <a href="https://github.com/Ingridbeca/Game-Mata-Mosquito.git">
                 <img src={jogo} className="slide d-block" style={{ width: '900px', height: 'auto' }} />
                 <div className="carousel-caption d-none d-md-block">
