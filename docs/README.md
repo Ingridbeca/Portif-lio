@@ -46,6 +46,6 @@ Este projeto foi construído utilizando:
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/ingrid-rebeca-b11a00279/)
 
-- 📧 [E-mai](inggmyg@gmail.com)
+- 📧 [E-mail: inggmyg@gmail.com]
 
 ---
