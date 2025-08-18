@@ -1,0 +1,33 @@
+.footer {
+    width: 100%;
+    background-color: #E5F6FA;
+    padding: 20px 0;
+    border-top: 2px solid #112752;
+  }
+  .footer .container-fluid {
+    max-width: 100%;
+  }
+  .footer a {
+    color: #112752;
+    text-decoration: none;
+    margin: 8px;
+  }
+  
+  .footer a:hover {
+    color: #4A77D0;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  @media screen and (min-width: 100px) and (max-width: 600px) {
+    .footer {
+      width: 100%;
+      background-color: #E5F6FA;
+      padding: 20px 0;
+      border-top: 2px solid #112752;
+    }
+  }
+
+
+  

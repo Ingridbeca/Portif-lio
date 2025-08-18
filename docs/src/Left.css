@@ -1,0 +1,195 @@
+.body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #cbedf69c 0%, #ffffff 50%, #cbedf6 100%);
+  border-right: 1px solid black;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1367px) and (max-width: 2000px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-link {
+    display: none;
+  }
+}
+
+#mode {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  display: flex;
+  color: #4A77D0;
+  cursor: pointer;
+}
+
+#mode:hover {
+  color: #112752;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.imagem {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+li {
+  font-size: 13px;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+  align-items: center;
+  font-weight: bold;
+  color: #112752;
+  text-align: justify;
+}
+
+.typewriter h2 {
+  display: inline-block;
+  overflow: hidden;
+  border-right: .15em solid #112752;
+  white-space: nowrap;
+  animation: blink-caret .75s step-end infinite;
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #112752;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px) {
+  .body {
+    width: 100%;
+    position: relative;
+    height: 30%;
+    background-image: none !important;
+    border: none;
+    margin-bottom: 40px;
+  }
+
+  #perfil {
+    margin-top: 15px;
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  #estrela {
+    width: 95px !important;
+    height: 53px !important;
+  }
+
+  .links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+  }
+
+  .links a {
+    color: #112752 !important;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .lista li {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1200px) {
+  .body {
+    width: 30%;
+    position: fixed;
+    height: 100vh;
+  }
+
+  #perfil {
+    margin-top: 15px;
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  #estrela {
+    width: 95px !important;
+    height: 53px !important;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  li {
+    font-size: 1px;
+  }
+
+  .lista li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 4000px) {
+  #perfil {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  #estrela {
+    width: 191px !important;
+    height: 107px !important;
+  }
+
+  .links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+  }
+
+  .links a {
+    color: #112752 !important;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+
+}

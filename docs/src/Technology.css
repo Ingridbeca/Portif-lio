@@ -1,0 +1,62 @@
+
+@media screen and (min-width: 100px) and (max-width: 1200px){
+    #html{
+        width: 80px !important;
+    }
+    #css{
+        width: 80px !important;
+    }
+    #js{
+        width: 80px !important;
+    }
+    #react{
+        width: 80px !important;
+    }
+    #bootstrap{
+        width: 80px !important;
+    }
+    #node{
+        width: 80px !important;
+    }
+    #git{
+        width: 80px !important;
+    }
+    #ts{
+        width: 80px !important;
+    }
+    #figma{
+        width: 80px !important;
+    }
+    .col-md-3 {
+        width: 30% !important;
+    }
+  }
+  @media screen and (min-width: 1367px) and (max-width: 4000px){
+    #html{
+        width: 150px !important;
+    }
+    #css{
+        width: 150px !important;
+    }
+    #js{
+        width: 150px !important;
+    }
+    #react{
+        width: 150px !important;
+    }
+    #bootstrap{
+        width: 150px !important;
+    }
+    #node{
+        width: 150px !important;
+    }
+    #git{
+        width: 150px !important;
+    }
+    #ts{
+        width: 150px !important;
+    }
+    #figma{
+        width: 150px !important;
+    }
+  }

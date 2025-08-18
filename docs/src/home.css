@@ -1,0 +1,46 @@
+.texto{
+    font-size: 50px;
+    width: 480px;
+}
+.azul{
+  color: #4A77D0;
+}
+.laranja{
+  color: #F89B52;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px){
+  #imagem{
+    display: none;
+    right: 100px;
+    width: 200px !important;
+  }
+  .texto{
+    display: none;
+    margin-bottom: 35px;
+    font-size: 20px;
+    width: 180px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px){
+  #imagem{
+    width: 400px !important;
+  }
+  .texto{
+    width: 
+    400px;
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 1367px) and (max-width: 4000px){
+    #imagem{
+      width: 700px !important;
+    }
+    .texto{
+      width: 560px;
+      font-size: 60px;
+    }
+  }

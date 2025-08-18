@@ -1,0 +1,40 @@
+body {
+    font-family: "Sacramento", cursive;
+  }  
+h1, h5{
+    color: #112752;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+img:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #112752;
+}
+a:hover{
+    color: #4F8FDC;
+    text-decoration: none;
+}
+.github:hover{
+    cursor: pointer;
+    color: #4A77D0;
+}
+@media screen and (min-width: 100px) and (max-width: 1200px){
+    h1, h5{
+        font-size: 25px;
+    }
+    .slide{
+        width: 350px !important;
+    }
+  }
+  
+  @media screen and (min-width: 1367px) and (max-width: 4000px){
+     
+    .slide{
+        width: 1200px !important;
+    }
+    }

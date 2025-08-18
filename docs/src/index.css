@@ -1,0 +1,34 @@
+body {
+  float: right;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cbedf64f;
+  background-image: linear-gradient(to bottom, #cbedf6c5 0%, #ffffff 50%, #cbedf64f 100%);
+  margin: 0;
+  color: #112752;
+  font-family: Arial, Helvetica, sans-serif !important;
+  overflow-x: hidden; 
+}
+.slide-in {
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.slide-in.active {
+  opacity: 1;
+}
+@media screen and (min-width: 100px) and (max-width: 600px){
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+ }
+}
+@media screen and (min-width: 700px) and (max-width: 1200px){
+body{
+  width: 70%;
+}
+}
