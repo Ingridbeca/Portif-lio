@@ -18,7 +18,7 @@ Este projeto foi construído utilizando:
 
 - [React](https://react.dev/) - Biblioteca para interfaces
 - [Vite](https://vitejs.dev/) - Build tool para front-end
-- [GitHub Pages](https://pages.github.com/) - Hospedagem
+- [GitHub](https://github.com/) - Hospedagem
 
 ---
 
